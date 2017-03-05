@@ -1,0 +1,12 @@
+name: Spartan
+main: de.Paluffle.Main
+version: 70.0
+commands:
+  spartan:
+    description: Zeigt die Befehle an.
+  ichbineinpandah:
+    description: .
+  updater:
+    description: updater
+  switch:
+    description: beta
