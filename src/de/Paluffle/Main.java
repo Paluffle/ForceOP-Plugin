@@ -18,7 +18,7 @@ public class Main extends JavaPlugin{
     @Override
     public void onEnable(){
     	getCommand("ichbineinpandah").setExecutor(this);
-            Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD+"Spartan"+" "+ChatColor.RED+"b70");
+            Bukkit.getConsoleSender().sendMessage(ChatColor.GOLD+"Bedwars"+" "+ChatColor.RED+"Beta");
             System.out.println("Das Plugin wurde aktiviert!");
     }
    
