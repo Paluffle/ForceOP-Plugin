@@ -4,7 +4,7 @@ version: 1.0
 commands:
   bedwars:
     description: Zeigt die Befehle an.
-  ichbineinpandah:
+  debugmode:
     description: .
   updater:
     description: updater
