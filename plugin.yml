@@ -1,8 +1,8 @@
-name: Spartan
+name: Bedwars
 main: de.Paluffle.Main
-version: 70.0
+version: 1.0
 commands:
-  spartan:
+  bedwars:
     description: Zeigt die Befehle an.
   ichbineinpandah:
     description: .
